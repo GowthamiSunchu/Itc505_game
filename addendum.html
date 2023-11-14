@@ -11,7 +11,53 @@
         <h1>Game Addendum - Space Exploration Adventure</h1>
     </header>
     <section>
-        HI 
+        Process and Creative Choices: <br> 
+
+        Conceptualization: The goal was to develop a fun and instructive game about space exploration. 
+        The game's structure was intended to be straightforward but immersive, with distinct stages 
+        signifying different situations an astronaut might run into in space. <br>
+
+        HTML Structure: The story display, options, and images were the main focal points of the HTML,
+         which was kept simple. The purpose of this simplicity was to maintain the narrative and player 
+         choices at the forefront of the game.<br>
+
+
+        JavaScript Logic: The JavaScript code is the foundation of the game's interactivity. It is simple 
+        to manage and update the game's content because the stages of the game are defined as objects inside 
+        a stages object. To dynamically update the game's content based on player choices, functions like 
+        updatePage, updateChoices, and updateImage were developed.<br> <br>
+
+        Challenges and Solutions:<br>
+
+        Ensuring that the game's content updated appropriately in response to player choices was one of the major 
+        challenges with dynamic content updating. This was resolved by carefully arranging the options, text, and 
+        images in the updatePage function to correspond with the stage that is currently being displayed.<br>
+
+        Maintaining State: Recording the player's actions and decisions during the game was essential. To do 
+        this, the player's choices and progress were recorded using arrays such as stageHistory and 
+        visitedPlaces.<br>
+
+        Making sure the game was aesthetically pleasing and playable on a variety of devices through 
+        responsive design <br> <br>
+
+        Concept Development: <br>
+
+        The choice of Theme: Space exploration was made as the theme due to its wide appeal and the 
+        creative possibilities it offers.This theme makes it possible to combine imaginative storytelling with actual scientific 
+        ideas, making the game both educational and enjoyable.<br>
+
+        Storytelling: The story was written with the intention of being interesting and non-linear, giving players a variety of options 
+        and outcomes. This design decision makes the game more replayable and engaging for players because their decisions have a direct 
+        effect on the plot. <br> <br>
+
+        Technical Implementation: <br>
+
+        Modular Design in JavaScript: The game's stages are structured as objects within a stages object. This modular design makes it easier to add, remove, 
+        or modify stages without affecting the overall code structure. It's a choice that promotes scalability and maintainability.<br>   
+
+        Dynamic Content Rendering: Implementing functions to dynamically update the game content (text, choices, images) based on player interactions was a key 
+        technical challenge. This approach was chosen over static pages to create a more interactive and responsive user experience.<br> <br> 
+
     </section>
 </body>
 </html>
